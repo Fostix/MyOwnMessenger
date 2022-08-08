@@ -7,23 +7,23 @@ import MyOwnTry.Core.User.PremiumUser;
 import MyOwnTry.Storage.StorageUsers.AllUsers;
 
 public class Model {
-    private AllUsers<BaseUser> everythingUsers = new AllUsers<>();
+    private AllUsers everythingUsers = new AllUsers();
 
     //#region createUsers
     public void createUser(String name) {
-        everythingUsers.addUsers(new PremiumUser(name));
+        everythingUsers.addUser(new PremiumUser(name));
     }
 
     public void createPremiumUser(String name) {
-        everythingUsers.addUsers(new PremiumUser(name));
+        everythingUsers.addUser(new PremiumUser(name));
     }
 
     public void createAdmin(String name) {
-        everythingUsers.addUsers(new Admin(name));
+        everythingUsers.addUser(new Admin(name));
     }
 
     public void createGod(String name) {
-        everythingUsers.addUsers(new God(name));
+        everythingUsers.addUser(new God(name));
     }
     //#endregion
 
@@ -52,13 +52,13 @@ public class Model {
     }
 
     public void getEverythingUsers(int id) {
-        System.out.println(this.everythingUsers.getUser(0).equals(id));
-        for (int i = 0; i < this.everythingUsers.size(); i++) {
-            this.everythingUsers.getUser(i);
-        }
-        for (var a : this.everythingUsers) {
-
-        }
+//        System.out.println(this.everythingUsers.getUser(0).equals(id));
+//        for (int i = 0; i < this.everythingUsers.size(); i++) {
+//            this.everythingUsers.getUser(i);
+//        }
+//        for (var a : this.everythingUsers) {
+//
+//        }
 
         //System.out.println(this.everythingUsers.getUsers().get(0).equals(id));
     }

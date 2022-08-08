@@ -4,30 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3aeae636-e00b-4daf-b594-021ba80e6a91" name="Changes" comment="first commit. maybe lie">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyOwnTry/Client/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/Chats/Chat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/Chats/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/Presenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/User/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/User/BaseUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/User/God.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/User/ID.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/User/PremiumUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/User/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyOwnTry/Storage/BaseLogicStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyOwnTry/Storage/StorageArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyOwnTry/Storage/StorageMC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyOwnTry/Storage/StorageUsers/AllUsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyOwnTry/UI/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyOwnTry/UI/ConsoleView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyOwnTry/UI/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task" afterDir="false" />
+    <list default="true" id="3aeae636-e00b-4daf-b594-021ba80e6a91" name="Changes" comment="save moment try implement iteration">
+      <change afterPath="$PROJECT_DIR$/src/MyOwnTry/Storage/StorageUsers/Users.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/User/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/User/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/User/BaseUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/User/BaseUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/User/God.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/User/God.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/User/PremiumUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/User/PremiumUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/User/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/User/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Storage/StorageUsers/AllUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Storage/StorageUsers/AllUsers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +139,7 @@
       <workItem from="1659761960205" duration="6349000" />
       <workItem from="1659795112309" duration="10350000" />
       <workItem from="1659840326177" duration="12113000" />
-      <workItem from="1659972049967" duration="961000" />
+      <workItem from="1659972049967" duration="5243000" />
     </task>
     <task id="LOCAL-00001" summary="first commit. maybe lie">
       <created>1659453007904</created>
@@ -162,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659453007904</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="save moment try implement iteration">
+      <created>1659973508405</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659973508405</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,7 +174,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit. maybe lie" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit. maybe lie" />
+    <MESSAGE value="save moment try implement iteration" />
+    <option name="LAST_COMMIT_MESSAGE" value="save moment try implement iteration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -192,14 +186,14 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/MyOwnTry/UI/Menu.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MyOwnTry/Storage/StorageUsers/AllUsers.java</url>
           <line>29</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MyOwnTry/UI/Menu.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

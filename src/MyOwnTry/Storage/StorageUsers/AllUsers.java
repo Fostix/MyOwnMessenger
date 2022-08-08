@@ -8,21 +8,21 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class AllUsers<U extends BaseUser> extends BaseUser {
-    private List<U> users = new ArrayList<>();
-
-
-    public BaseUser getUser(int i) {
-        return users.get(i);
-    }
-
-    public int size() {
-        return users.size();
-    }
-
-    public void addUsers(U u) {
-        this.users.add(u);
-    }
+public class AllUsers extends Users { //<U extends BaseUser> extends BaseUser {
+//    private List<BaseUser> users = new ArrayList<>();
+//
+//
+//    public BaseUser getUser(int i) {
+//        return users.get(i);
+//    }
+//
+//    public int size() {
+//        return users.size();
+//    }
+//
+//    public void addUsers(BaseUser u) {
+//        this.users.add(u);
+//    }
 
 //    @Override
 //    public boolean equals(Object o) {
@@ -40,15 +40,15 @@ public class AllUsers<U extends BaseUser> extends BaseUser {
 //        return users.equals(allUsers.users);
 //    }
 
-    @Override
-    public int hashCode() {
-        return users.hashCode();
-    }
-
-    @Override
-    public String toString() {
-        return String.format("%s", this.users);
-    }
+//    @Override
+//    public int hashCode() {
+//        return users.hashCode();
+//    }
+//
+//    @Override
+//    public String toString() {
+//        return String.format("%s", this.users);
+//    }
 
     @Override
     public Iterator<BaseUser> iterator() {

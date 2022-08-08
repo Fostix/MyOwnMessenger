@@ -2,7 +2,7 @@ package MyOwnTry.Core.User;
 
 import java.util.Objects;
 
-public abstract class BaseUser implements Iterable<BaseUser> {
+public abstract class BaseUser {
     private ID id;
     private String name;
 
@@ -26,17 +26,22 @@ public abstract class BaseUser implements Iterable<BaseUser> {
         return id;
     }
 
+//    @Override
+//    public boolean equals(Object o) {
+//        if (this.id.equals(o)) {
+//            System.out.println("equals!!!!");
+//            return true; }
+//        if (o == null || getClass() != o.getClass()) return false;
+//
+//        BaseUser baseUser = (BaseUser) o;
+//
+//        if (!Objects.equals(id, baseUser.id)) return false;
+//        return Objects.equals(name, baseUser.name);
+//    }
     @Override
-    public boolean equals(Object o) {
-        if (this.id.equals(o)) {
-            System.out.println("equals!!!!");
-            return true; }
-        if (o == null || getClass() != o.getClass()) return false;
-
-        BaseUser baseUser = (BaseUser) o;
-
-        if (!Objects.equals(id, baseUser.id)) return false;
-        return Objects.equals(name, baseUser.name);
+    public boolean equals(Object obj) {
+        BaseUser t = (BaseUser) obj;
+        return t.id == this.id;
     }
 
     @Override
