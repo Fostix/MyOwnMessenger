@@ -1,15 +1,51 @@
 package MyOwnTry.Storage.StorageUsers;
 
 import MyOwnTry.Core.User.BaseUser;
-import MyOwnTry.Core.User.ID;
-import MyOwnTry.Core.User.User;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class AllUsers extends Users { //<U extends BaseUser> extends BaseUser {
-//    private List<BaseUser> users = new ArrayList<>();
+public class AllUsers<B extends BaseUser> implements Iterable<B>{ //<U extends BaseUser> extends BaseUser {
+    private List<B> users;
+
+    int index;
+
+    public AllUsers() {
+        users = new ArrayList<>();
+        index = 0;
+    }
+
+    public void addUser(B b) {
+        if (!(users.indexOf(users) != -1)) {
+            users.add(b);
+        }
+    }
+
+    @Override
+    public String toString() {
+        return String.format("%s", this.users);
+    }
+
+    @Override
+    public Iterator<B> iterator() {
+        Iterator<B> iter = new Iterator<B>() {
+
+            private int index = 0;
+            @Override
+            public boolean hasNext() {
+                return index < users.size();
+            }
+
+            @Override
+            public B next() {
+                return users.get(index++);
+            }
+        };
+        return iter;
+    }
+
+    //    private List<BaseUser> users = new ArrayList<>();
 //
 //
 //    public BaseUser getUser(int i) {
@@ -24,7 +60,7 @@ public class AllUsers extends Users { //<U extends BaseUser> extends BaseUser {
 //        this.users.add(u);
 //    }
 
-//    @Override
+    //    @Override
 //    public boolean equals(Object o) {
 //        for (BaseUser a : users) {
 //            if (a.equals(o)) { //
@@ -39,32 +75,4 @@ public class AllUsers extends Users { //<U extends BaseUser> extends BaseUser {
 //
 //        return users.equals(allUsers.users);
 //    }
-
-//    @Override
-//    public int hashCode() {
-//        return users.hashCode();
-//    }
-//
-//    @Override
-//    public String toString() {
-//        return String.format("%s", this.users);
-//    }
-
-    @Override
-    public Iterator<BaseUser> iterator() {
-        Iterator<BaseUser> iter = new Iterator<BaseUser>() {
-
-            private int index = 0;
-            @Override
-            public boolean hasNext() {
-                return index < users.size();
-            }
-
-            @Override
-            public BaseUser next() {
-                return users.get(index++);
-            }
-        };
-        return iter;
-    }
 }

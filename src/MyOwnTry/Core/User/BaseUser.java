@@ -1,7 +1,5 @@
 package MyOwnTry.Core.User;
 
-import java.util.Objects;
-
 public abstract class BaseUser {
     private ID id;
     private String name;

@@ -27,8 +27,9 @@ public class Model {
     }
     //#endregion
 
-    public void showAllUsers() {
-        System.out.println(everythingUsers); // вывод должен находится во View
+    public String showAllUsers() {
+        //System.out.println(everythingUsers); // вывод должен находится во View
+        return everythingUsers.toString();
     }
 
     public boolean isDigitString(String foCheck) {
@@ -48,7 +49,6 @@ public class Model {
     }
 
     public void addUserInGroup(int forCheckId) {
-
     }
 
     public void getEverythingUsers(int id) {

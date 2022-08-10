@@ -30,7 +30,8 @@ public class Presenter {
     }
 
     public void showAllUsers() {
-        model.showAllUsers();
+        //model.showAllUsers();
+        view.showAllUsers(model.showAllUsers());
     }
 
     //#region append user in group

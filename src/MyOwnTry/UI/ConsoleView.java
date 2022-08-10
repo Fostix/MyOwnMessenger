@@ -38,4 +38,9 @@ public class ConsoleView implements View {
     public void itIsNumber() {
         System.out.println("А вот это число. Молодец!");
     }
+
+    @Override
+    public void showAllUsers(String info) {
+        System.out.println(info);
+    }
 }
