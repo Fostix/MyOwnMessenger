@@ -21,6 +21,16 @@ public class AllUsers<B extends BaseUser> implements Iterable<B>{ //<U extends B
         }
     }
 
+    public boolean checkId(int forCheck) {
+        boolean flag;
+        for (B user : users) {
+            System.out.println(user);
+            if (user.getId().getId() == forCheck)
+                return true;
+        }
+        return false;
+    }
+
     @Override
     public Iterator<B> iterator() {
         Iterator<B> iter = new Iterator<B>() {

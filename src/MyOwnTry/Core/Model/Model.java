@@ -47,6 +47,7 @@ public class Model {
     }
 
     public void createGroup(int id) {
-
+        everythingUsers.checkId(id);
+        System.out.println(everythingUsers.checkId(id)); // check then del
     }
 }
