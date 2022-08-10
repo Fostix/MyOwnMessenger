@@ -43,4 +43,9 @@ public class ConsoleView implements View {
     public void showAllUsers(String info) {
         System.out.println(info);
     }
+
+    @Override
+    public void createGroup() {
+        System.out.print("Введите id того кто создаёт группу");
+    }
 }

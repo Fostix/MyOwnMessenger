@@ -36,8 +36,11 @@ public class Menu {
                     case "show": // Показать всех пользователей.
                         presenter.showAllUsers();
                         break;
-                    case "groupU": // Отправить юзера в группу.
-                        presenter.sendUserInGroup();
+                    case "agroup":
+                        presenter.createGroup();
+                        break;
+                    case "groupu": // Отправить юзера в группу.
+                        // presenter.sendUserInGroup();
                         break;
                     default:
                         System.out.println("Нет такой команды");

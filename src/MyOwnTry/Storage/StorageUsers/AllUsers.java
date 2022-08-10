@@ -8,7 +8,6 @@ import java.util.List;
 
 public class AllUsers<B extends BaseUser> implements Iterable<B>{ //<U extends BaseUser> extends BaseUser {
     private List<B> users;
-
     int index;
 
     public AllUsers() {

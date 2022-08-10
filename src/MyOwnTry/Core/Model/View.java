@@ -9,4 +9,5 @@ public interface View {
     void notNumber();
     void itIsNumber();
     void showAllUsers(String info);
+    void createGroup();
 }

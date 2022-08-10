@@ -1,7 +1,6 @@
 package MyOwnTry.Core.Model;
 
 import MyOwnTry.Core.User.Admin;
-import MyOwnTry.Core.User.BaseUser;
 import MyOwnTry.Core.User.God;
 import MyOwnTry.Core.User.PremiumUser;
 import MyOwnTry.Storage.StorageUsers.AllUsers;
@@ -47,9 +46,7 @@ public class Model {
         return Integer.parseInt(willBeNumber);
     }
 
-    public void addUserInGroup(int forCheckId) {
-    }
+    public void createGroup(int id) {
 
-    public void getEverythingUsers(int id) {
     }
 }
