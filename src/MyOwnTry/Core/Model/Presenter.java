@@ -30,7 +30,6 @@ public class Presenter {
     }
 
     public void showAllUsers() {
-        //model.showAllUsers();
         view.showAllUsers(model.showAllUsers());
     }
 

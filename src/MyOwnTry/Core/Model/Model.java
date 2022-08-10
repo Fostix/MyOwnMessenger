@@ -28,7 +28,6 @@ public class Model {
     //#endregion
 
     public String showAllUsers() {
-        //System.out.println(everythingUsers); // вывод должен находится во View
         return everythingUsers.toString();
     }
 
@@ -52,14 +51,5 @@ public class Model {
     }
 
     public void getEverythingUsers(int id) {
-//        System.out.println(this.everythingUsers.getUser(0).equals(id));
-//        for (int i = 0; i < this.everythingUsers.size(); i++) {
-//            this.everythingUsers.getUser(i);
-//        }
-//        for (var a : this.everythingUsers) {
-//
-//        }
-
-        //System.out.println(this.everythingUsers.getUsers().get(0).equals(id));
     }
 }
