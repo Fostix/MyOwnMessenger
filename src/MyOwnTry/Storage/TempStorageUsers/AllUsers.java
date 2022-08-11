@@ -1,13 +1,12 @@
-package MyOwnTry.Storage.StorageUsers;
+package MyOwnTry.Storage.TempStorageUsers;
 
 import MyOwnTry.Core.User.BaseUser;
-import MyOwnTry.Core.User.ID;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class AllUsers<B extends BaseUser> implements Iterable<B>{ //<U extends BaseUser> extends BaseUser {
+public class AllUsers<B extends BaseUser, Group> implements Iterable<B>{ //<U extends BaseUser> extends BaseUser {
     private List<B> users;
     int index;
 

@@ -3,7 +3,7 @@ package MyOwnTry.Core.Model;
 import MyOwnTry.Core.User.Admin;
 import MyOwnTry.Core.User.God;
 import MyOwnTry.Core.User.PremiumUser;
-import MyOwnTry.Storage.StorageUsers.AllUsers;
+import MyOwnTry.Storage.TempStorageUsers.AllUsers;
 
 public class Model {
     private AllUsers everythingUsers = new AllUsers();
@@ -49,4 +49,6 @@ public class Model {
     public boolean equalsId(int id) {
         return everythingUsers.checkId(id); // check then del
     }
+
+
 }
