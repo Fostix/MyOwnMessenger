@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3aeae636-e00b-4daf-b594-021ba80e6a91" name="Changes" comment="Iterator work!!!">
-      <change afterPath="$PROJECT_DIR$/src/MyOwnTry/Storage/TempStorageGroups/Groups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyOwnTry/Storage/TempStorage/BaseAll.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/Chats/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/Group/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/Chats/Repository.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/Presenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/Presenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Storage/StorageUsers/AllUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Storage/TempStorageUsers/AllUsers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Storage/TempStorageGroups/Groups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Storage/TempStorage/Groups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Storage/TempStorageUsers/AllUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Storage/TempStorage/AllUsers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +28,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/MyOwnTry/Storage/TempStorageUsers/AllUsers.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/MyOwnTry/Storage/TempStorage/AllUsers.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -141,7 +137,7 @@
       <workItem from="1659840326177" duration="12113000" />
       <workItem from="1659972049967" duration="6311000" />
       <workItem from="1660127486794" duration="16875000" />
-      <workItem from="1660182377731" duration="14728000" />
+      <workItem from="1660182377731" duration="17421000" />
     </task>
     <task id="LOCAL-00001" summary="first commit. maybe lie">
       <created>1659453007904</created>
@@ -209,11 +205,6 @@
           <url>file://$PROJECT_DIR$/src/SecondExample/Client/App.java</url>
           <line>6</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/MyOwnTry/Storage/TempStorageUsers/AllUsers.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

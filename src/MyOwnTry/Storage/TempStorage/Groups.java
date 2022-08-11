@@ -1,4 +1,4 @@
-package MyOwnTry.Storage.TempStorageGroups;
+package MyOwnTry.Storage.TempStorage;
 
 import MyOwnTry.Core.Group.Group;
 import MyOwnTry.Core.User.ID;
