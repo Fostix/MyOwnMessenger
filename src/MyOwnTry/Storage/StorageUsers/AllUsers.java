@@ -1,6 +1,7 @@
 package MyOwnTry.Storage.StorageUsers;
 
 import MyOwnTry.Core.User.BaseUser;
+import MyOwnTry.Core.User.ID;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -23,6 +24,7 @@ public class AllUsers<B extends BaseUser> implements Iterable<B>{ //<U extends B
 
     public boolean checkId(int forCheck) {
         boolean flag;
+        ID t = new ID();
         for (B user : users) {
             System.out.println(user);
             if (user.getId().getId() == forCheck)
