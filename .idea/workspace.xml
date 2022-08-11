@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3aeae636-e00b-4daf-b594-021ba80e6a91" name="Changes" comment="Iterator work!!!">
-      <change afterPath="$PROJECT_DIR$/src/MyOwnTry/Storage/TempStorage/BaseAll.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Storage/TempStorageGroups/Groups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Storage/TempStorage/Groups.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Storage/TempStorageUsers/AllUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Storage/TempStorage/AllUsers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +133,7 @@
       <workItem from="1659840326177" duration="12113000" />
       <workItem from="1659972049967" duration="6311000" />
       <workItem from="1660127486794" duration="16875000" />
-      <workItem from="1660182377731" duration="17421000" />
+      <workItem from="1660182377731" duration="18617000" />
     </task>
     <task id="LOCAL-00001" summary="first commit. maybe lie">
       <created>1659453007904</created>
