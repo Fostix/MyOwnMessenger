@@ -10,4 +10,5 @@ public interface View {
     void itIsNumber();
     void showAllUsers(String info);
     void createGroup();
+    void suchUserDoNotHave();
 }

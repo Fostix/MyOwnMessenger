@@ -11,6 +11,17 @@ public class Menu {
         System.out.println("Включение системы");
         System.out.println("Прописать кнопки");
         Presenter presenter = new Presenter(new ConsoleView());
+
+        // # region
+        for (int i = 0; i < 10; i++) {
+            presenter.createUser();
+        }
+        presenter.showAllUsers(); // Сперва ID потом имя!!
+        for (int i = 0; i < 1; i++) {
+            presenter.createGroup();
+        }
+        // # endregion
+
         while (true) {
             try {
                 enter = scanner.next();

@@ -46,8 +46,7 @@ public class Model {
         return Integer.parseInt(willBeNumber);
     }
 
-    public void createGroup(int id) {
-        everythingUsers.checkId(id);
-        System.out.println(everythingUsers.checkId(id)); // check then del
+    public boolean equalsId(int id) {
+        return everythingUsers.checkId(id); // check then del
     }
 }

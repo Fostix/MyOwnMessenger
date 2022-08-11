@@ -23,12 +23,10 @@ public class AllUsers<B extends BaseUser> implements Iterable<B>{ //<U extends B
     }
 
     public boolean checkId(int forCheck) {
-        boolean flag;
-        ID t = new ID();
         for (B user : users) {
-            System.out.println(user);
-            if (user.getId().getId() == forCheck)
+            if (user.getId().getId() == forCheck) {
                 return true;
+            }
         }
         return false;
     }
