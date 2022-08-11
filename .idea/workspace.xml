@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3aeae636-e00b-4daf-b594-021ba80e6a91" name="Changes" comment="cant make iterator good">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/Presenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/Presenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/User/BaseUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/User/BaseUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/User/God.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/User/God.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Storage/StorageUsers/AllUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Storage/StorageUsers/AllUsers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Storage/StorageUsers/Users.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/UI/ConsoleView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/UI/ConsoleView.java" afterDir="false" />
-    </list>
+    <list default="true" id="3aeae636-e00b-4daf-b594-021ba80e6a91" name="Changes" comment="cant make iterator good" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
