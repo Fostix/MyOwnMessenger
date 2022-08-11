@@ -1,35 +1,31 @@
-package MyOwnTry.Core.Chats;
+package MyOwnTry.Core.Group;
 
 import MyOwnTry.Core.User.BaseUser;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Chat<C extends BaseUser> implements Repository {
+public class Group<B extends BaseUser> {
     private String chatName;
-    private List<C> users;
+    private List<B> users;
 
-    public Chat(String chatName) {
+    public Group(String chatName) {
         this.chatName = chatName;
         this.users = new ArrayList<>();
     }
 
-    @Override
-    public void add(BaseUser baseUser) {
-        users.add((C) baseUser);
+    public void add(B b) { // Why i can't parameterize base hero?
+        users.add(b);
     }
 
-    @Override
-    public C getByName(String name) {
+    public B getByName(String name) {
         return null;
     }
 
-    @Override
-    public C getById(int id) {
+    public B getById(int id) {
         return null;
     }
 
-    @Override
     public int getCount() {
         return 0;
     }

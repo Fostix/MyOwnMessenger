@@ -2,17 +2,22 @@ package MyOwnTry.UI;
 
 import MyOwnTry.Core.Model.View;
 
+import java.util.Random;
 import java.util.Scanner;
+import java.util.UUID;
 
 public class ConsoleView implements View {
     private Scanner scanner = new Scanner(System.in);
+    private Random r = new Random();
+
     public ConsoleView() {
     }
 
     @Override
     public String enterName() {
         System.out.print("Enter name: ");
-        return scanner.next();
+        //return scanner.next();
+        return UUID.randomUUID().toString(); // Для ускорения проверки
     }
 
     @Override
@@ -26,7 +31,8 @@ public class ConsoleView implements View {
     @Override
     public String enterNumber() {
         System.out.print("Введите число: ");
-        return scanner.next();
+        // return scanner.next(); // Вернуть после проверок!!
+        return String.valueOf(r.nextInt(10));
     }
 
     @Override
@@ -42,5 +48,15 @@ public class ConsoleView implements View {
     @Override
     public void showAllUsers(String info) {
         System.out.println(info);
+    }
+
+    @Override
+    public void createGroup() {
+        System.out.println("Введите id того кто создаёт группу: ");
+    }
+
+    @Override
+    public void suchUserDoNotHave() {
+        System.out.println("Пользователя с таким id не существует");
     }
 }

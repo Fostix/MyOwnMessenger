@@ -8,7 +8,7 @@ public class ID {
 
     public ID() {
         Random r = new Random();
-        this.id = r.nextInt(Integer.MAX_VALUE);
+        this.id = r.nextInt(10); // Integer.MAX_VALUE
     }
 
     public int getId() {
@@ -20,7 +20,7 @@ public class ID {
     }
 
     @Override
-    public boolean equals(Object o) {
+    public boolean equals(Object o) { // Переполнение id
         if (this.id.equals(o)) return true;
         if (o == null || getClass() != o.getClass()) return false;
         ID id1 = (ID) o;

@@ -4,31 +4,31 @@ import MyOwnTry.Core.User.Admin;
 import MyOwnTry.Core.User.BaseUser;
 import MyOwnTry.Core.User.God;
 import MyOwnTry.Core.User.PremiumUser;
-import MyOwnTry.Storage.StorageUsers.AllUsers;
+import MyOwnTry.Storage.TempStorage.AllUsers;
+import MyOwnTry.Storage.TempStorage.BaseAll;
 
 public class Model {
-    private AllUsers everythingUsers = new AllUsers();
+    private BaseAll<BaseUser> everythingUsers = new AllUsers<>();
 
     //#region createUsers
     public void createUser(String name) {
-        everythingUsers.addUser(new PremiumUser(name));
+        everythingUsers.add(new PremiumUser(name));
     }
 
     public void createPremiumUser(String name) {
-        everythingUsers.addUser(new PremiumUser(name));
+        everythingUsers.add(new PremiumUser(name));
     }
 
     public void createAdmin(String name) {
-        everythingUsers.addUser(new Admin(name));
+        everythingUsers.add(new Admin(name));
     }
 
     public void createGod(String name) {
-        everythingUsers.addUser(new God(name));
+        everythingUsers.add(new God(name));
     }
     //#endregion
 
     public String showAllUsers() {
-        //System.out.println(everythingUsers); // вывод должен находится во View
         return everythingUsers.toString();
     }
 
@@ -48,18 +48,9 @@ public class Model {
         return Integer.parseInt(willBeNumber);
     }
 
-    public void addUserInGroup(int forCheckId) {
+    public boolean equalsId(int id) {
+        return everythingUsers.checkId(id); // check then del
     }
 
-    public void getEverythingUsers(int id) {
-//        System.out.println(this.everythingUsers.getUser(0).equals(id));
-//        for (int i = 0; i < this.everythingUsers.size(); i++) {
-//            this.everythingUsers.getUser(i);
-//        }
-//        for (var a : this.everythingUsers) {
-//
-//        }
 
-        //System.out.println(this.everythingUsers.getUsers().get(0).equals(id));
-    }
 }

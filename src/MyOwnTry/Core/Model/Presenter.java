@@ -30,12 +30,18 @@ public class Presenter {
     }
 
     public void showAllUsers() {
-        //model.showAllUsers();
         view.showAllUsers(model.showAllUsers());
     }
 
-    //#region append user in group
-    public void sendUserInGroup() {
+    public void createGroup() {
+        view.createGroup();
+        if (model.equalsId(getNumber())) {
+
+        } else
+            view.suchUserDoNotHave();
+    }
+
+    public int getNumber() {
         // Check number.
         String beNumber = "";
         int count = 0;
@@ -48,10 +54,6 @@ public class Presenter {
             view.itIsNumber();
         }
 
-        int num = model.getNumber(beNumber);
-
-        // Check id.
-        model.getEverythingUsers(num);
+        return model.getNumber(beNumber);
     }
-    //#endregion
 }

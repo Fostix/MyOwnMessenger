@@ -11,6 +11,17 @@ public class Menu {
         System.out.println("Включение системы");
         System.out.println("Прописать кнопки");
         Presenter presenter = new Presenter(new ConsoleView());
+
+        // # region
+        for (int i = 0; i < 10; i++) {
+            presenter.createUser();
+        }
+        presenter.showAllUsers(); // Сперва ID потом имя!!
+        for (int i = 0; i < 1; i++) {
+            presenter.createGroup();
+        }
+        // # endregion
+
         while (true) {
             try {
                 enter = scanner.next();
@@ -36,8 +47,11 @@ public class Menu {
                     case "show": // Показать всех пользователей.
                         presenter.showAllUsers();
                         break;
-                    case "groupU": // Отправить юзера в группу.
-                        presenter.sendUserInGroup();
+                    case "agroup":
+                        presenter.createGroup();
+                        break;
+                    case "groupu": // Отправить юзера в группу.
+                        // presenter.sendUserInGroup();
                         break;
                     default:
                         System.out.println("Нет такой команды");
