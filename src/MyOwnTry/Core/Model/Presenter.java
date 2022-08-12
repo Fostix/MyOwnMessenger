@@ -35,8 +35,10 @@ public class Presenter {
 
     public void createGroup() {
         view.createGroup();
-        if (model.equalsId(getNumber())) {
-
+        int idUser = getNumber();
+        if (model.equalsId(idUser)) {
+            //.
+            model.createGroup();
         } else
             view.suchUserDoNotHave();
     }

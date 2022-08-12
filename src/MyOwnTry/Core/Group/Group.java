@@ -1,6 +1,8 @@
 package MyOwnTry.Core.Group;
 
+import MyOwnTry.Core.User.Admin;
 import MyOwnTry.Core.User.BaseUser;
+import MyOwnTry.Core.User.God;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,6 +30,11 @@ public class Group<B extends BaseUser> {
 
     public int getCount() {
         return 0;
+    }
+
+    public void dell(B b) {
+        if(new God("f") != b)
+        users.remove(0);
     }
 
     @Override

@@ -9,9 +9,6 @@ public abstract class BaseUser {
         this.name = name;
     }
 
-    public BaseUser() {
-    }
-
     public String getName() {
         return name;
     }

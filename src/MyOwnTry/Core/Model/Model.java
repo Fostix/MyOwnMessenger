@@ -1,14 +1,17 @@
 package MyOwnTry.Core.Model;
 
+import MyOwnTry.Core.Group.Group;
 import MyOwnTry.Core.User.Admin;
 import MyOwnTry.Core.User.BaseUser;
 import MyOwnTry.Core.User.God;
 import MyOwnTry.Core.User.PremiumUser;
 import MyOwnTry.Storage.TempStorage.AllUsers;
 import MyOwnTry.Storage.TempStorage.BaseAll;
+import MyOwnTry.Storage.TempStorage.Groups;
 
 public class Model {
     private BaseAll<BaseUser> everythingUsers = new AllUsers<>();
+    private BaseAll<Groups> everythingGroups = new Groups<>();
 
     //#region createUsers
     public void createUser(String name) {
@@ -49,8 +52,13 @@ public class Model {
     }
 
     public boolean equalsId(int id) {
-        return everythingUsers.checkId(id); // check then del
+        return everythingUsers.checkId(id); // check then del???????
     }
 
-
+    public boolean createGroup() { // Потом нужно будет добавить аргумент и передавать название группы!!
+        new Group<>("Пармезановцы");
+        // everythingGroups.add();
+        //new Group<>("Пармезановцы");
+        return true;
+    }
 }

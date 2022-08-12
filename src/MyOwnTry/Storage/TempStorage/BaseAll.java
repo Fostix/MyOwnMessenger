@@ -1,5 +1,7 @@
 package MyOwnTry.Storage.TempStorage;
 
+import MyOwnTry.Core.User.BaseUser;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
