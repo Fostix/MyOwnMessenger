@@ -2,6 +2,8 @@ package MyOwnTry.Storage.TempStorage;
 
 import MyOwnTry.Core.User.BaseUser;
 
+import java.util.Iterator;
+
 public class AllUsers<B extends BaseUser> extends BaseAll<B>{
 
     public boolean checkId(int forCheck) {

@@ -11,7 +11,7 @@ import MyOwnTry.Storage.TempStorage.Groups;
 
 public class Model {
     private BaseAll<BaseUser> everythingUsers = new AllUsers<>();
-    private BaseAll<Groups> everythingGroups = new Groups<>();
+    private BaseAll<Group> everythingGroups = new Groups<>();
 
     //#region createUsers
     public void createUser(String name) {
@@ -56,8 +56,8 @@ public class Model {
     }
 
     public boolean createGroup() { // Потом нужно будет добавить аргумент и передавать название группы!!
-        new Group<>("Пармезановцы");
-        // everythingGroups.add();
+        Group newGroup = new Group<>("Пармезановцы");
+        everythingGroups.add(newGroup);
         //new Group<>("Пармезановцы");
         return true;
     }
