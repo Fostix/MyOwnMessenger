@@ -2,7 +2,9 @@ package MyOwnTry.Storage.TempStorage;
 
 import MyOwnTry.Core.Group.Group;
 
-public class Groups<G extends Group> extends BaseAll{
+import java.util.Iterator;
+
+public class Groups<G extends Group> extends BaseAll {
     @Override
     public boolean checkId(int id) {
         return false;

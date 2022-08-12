@@ -1,13 +1,13 @@
 package MyOwnTry.Core.Group;
 
-import MyOwnTry.Core.User.Admin;
+import MyOwnTry.Core.BaseList.ModelListIterator;
 import MyOwnTry.Core.User.BaseUser;
 import MyOwnTry.Core.User.God;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Group<B extends BaseUser> {
+public class Group<B extends BaseUser> extends ModelListIterator<B> {
     private String chatName;
     private List<B> users;
 

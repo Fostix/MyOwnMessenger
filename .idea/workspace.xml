@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3aeae636-e00b-4daf-b594-021ba80e6a91" name="Changes" comment="Iterator work!!!">
+      <change afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/BaseList/Count.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/BaseList/ModelListIterator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/Group/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/Group/Group.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/Presenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/Presenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/User/BaseUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/User/BaseUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Storage/TempStorage/AllUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Storage/TempStorage/AllUsers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Storage/TempStorage/BaseAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Storage/TempStorage/BaseAll.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Storage/TempStorage/Groups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Storage/TempStorage/Groups.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +142,8 @@
       <workItem from="1659972049967" duration="6311000" />
       <workItem from="1660127486794" duration="16875000" />
       <workItem from="1660182377731" duration="18617000" />
-      <workItem from="1660275570668" duration="7775000" />
+      <workItem from="1660275570668" duration="8187000" />
+      <workItem from="1660286794515" duration="14161000" />
     </task>
     <task id="LOCAL-00001" summary="first commit. maybe lie">
       <created>1659453007904</created>
