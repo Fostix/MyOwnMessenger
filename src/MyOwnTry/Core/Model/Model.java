@@ -55,10 +55,13 @@ public class Model {
         return everythingUsers.checkId(id); // check then del???????
     }
 
-    public boolean createGroup() { // Потом нужно будет добавить аргумент и передавать название группы!!
+    public Group createGroup() { // Потом нужно будет добавить аргумент и передавать название группы!!
         Group newGroup = new Group<>("Пармезановцы");
+        return newGroup;
+    }
+
+    public void appendGroupInStorage(Group newGroup) {
         everythingGroups.add(newGroup);
-        //new Group<>("Пармезановцы");
-        return true;
+        System.out.println(everythingGroups);
     }
 }

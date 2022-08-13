@@ -17,7 +17,8 @@ public class Menu {
             presenter.createUser();
         }
         presenter.showAllUsers(); // Сперва ID потом имя!!
-        for (int i = 0; i < 1; i++) {
+        for (int i = 0; i < 3; i++) {
+            System.out.println();
             presenter.createGroup();
         }
         // # endregion

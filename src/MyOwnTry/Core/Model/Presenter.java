@@ -34,11 +34,12 @@ public class Presenter {
     }
 
     public void createGroup() {
-        view.createGroup();
+        view.createGroup(); // вывод
         int idUser = getNumber();
         if (model.equalsId(idUser)) {
             //.
-            model.createGroup();
+            System.out.println("here");
+            model.appendGroupInStorage(model.createGroup());
         } else
             view.suchUserDoNotHave();
     }
