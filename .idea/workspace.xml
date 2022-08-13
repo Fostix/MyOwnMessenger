@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3aeae636-e00b-4daf-b594-021ba80e6a91" name="Changes" comment="Iterator work!!!">
-      <change afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/BaseList/Count.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/BaseList/ModelListIterator.java" afterDir="false" />
+    <list default="true" id="3aeae636-e00b-4daf-b594-021ba80e6a91" name="Changes" comment="create model base iterator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/Group/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/Group/Group.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Storage/TempStorage/AllUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Storage/TempStorage/AllUsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/Presenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/Presenter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Storage/TempStorage/BaseAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Storage/TempStorage/BaseAll.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Storage/TempStorage/Groups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Storage/TempStorage/Groups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/UI/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/UI/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +140,8 @@
       <workItem from="1660127486794" duration="16875000" />
       <workItem from="1660182377731" duration="18617000" />
       <workItem from="1660275570668" duration="8187000" />
-      <workItem from="1660286794515" duration="14161000" />
+      <workItem from="1660286794515" duration="14976000" />
+      <workItem from="1660363474072" duration="5177000" />
     </task>
     <task id="LOCAL-00001" summary="first commit. maybe lie">
       <created>1659453007904</created>
@@ -180,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660139431287</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="create model base iterator">
+      <created>1660319684525</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1660319684525</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +207,8 @@
     <MESSAGE value="save moment try implement iteration" />
     <MESSAGE value="cant make iterator good" />
     <MESSAGE value="Iterator work!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Iterator work!!!" />
+    <MESSAGE value="create model base iterator" />
+    <option name="LAST_COMMIT_MESSAGE" value="create model base iterator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
