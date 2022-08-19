@@ -29,10 +29,10 @@ public class ConsoleView implements View {
     }
 
     @Override
-    public String enterNumber() {
+    public void enterNumber() { // При вводе через консоль понадобится не удаляй!!
         System.out.print("Введите число: ");
         // return scanner.next(); // Вернуть после проверок!!
-        return String.valueOf(r.nextInt(10));
+        // return String.valueOf(r.nextInt(10));
     }
 
     @Override
@@ -67,6 +67,12 @@ public class ConsoleView implements View {
 
     @Override
     public String enterInConsole() {
-        return String.valueOf(r.nextInt(10)); // для ускорения проверки!!
+        String name = UUID.randomUUID().toString(); // Что бы различать имена от цифр!
+        String numbers = String.valueOf(r.nextInt(10));
+        int num = r.nextInt(5);
+        if(num == 0) {
+            return numbers;
+        }
+        return name; // для ускорения проверки!!
     }
 }

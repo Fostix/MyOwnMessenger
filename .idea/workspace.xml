@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3aeae636-e00b-4daf-b594-021ba80e6a91" name="Changes" comment="create model base iterator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/Presenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/Presenter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/View.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyOwnTry/UI/ConsoleView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/UI/ConsoleView.java" afterDir="false" />
     </list>
@@ -142,7 +140,7 @@
       <workItem from="1660286794515" duration="14976000" />
       <workItem from="1660363474072" duration="6131000" />
       <workItem from="1660893924805" duration="1239000" />
-      <workItem from="1660895430998" duration="1983000" />
+      <workItem from="1660895430998" duration="2732000" />
     </task>
     <task id="LOCAL-00001" summary="first commit. maybe lie">
       <created>1659453007904</created>
