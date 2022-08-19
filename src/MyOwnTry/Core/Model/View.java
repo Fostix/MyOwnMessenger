@@ -1,7 +1,7 @@
 package MyOwnTry.Core.Model;
 
 public interface View {
-    String enterName();
+    void enterName();
     void createUserMenu();
     String enterNumber();
     void notNumber();
@@ -9,4 +9,6 @@ public interface View {
     void showAllUsers(String info);
     void createGroup();
     void suchUserDoNotHave();
+    void enterNameGroup();
+    String enterInConsole();
 }
