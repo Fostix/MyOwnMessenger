@@ -14,10 +14,10 @@ public class ConsoleView implements View {
     }
 
     @Override
-    public String enterName() {
+    public void enterName() {
         System.out.print("Enter name: ");
         //return scanner.next();
-        return UUID.randomUUID().toString(); // Для ускорения проверки
+        //return UUID.randomUUID().toString(); // Для ускорения проверки. Не нужен наверное
     }
 
     @Override
@@ -58,5 +58,15 @@ public class ConsoleView implements View {
     @Override
     public void suchUserDoNotHave() {
         System.out.println("Пользователя с таким id не существует");
+    }
+
+    @Override
+    public void enterNameGroup() {
+        System.out.print("Введите название группы: ");
+    }
+
+    @Override
+    public String enterInConsole() {
+        return String.valueOf(r.nextInt(10)); // для ускорения проверки!!
     }
 }

@@ -14,19 +14,23 @@ public class Presenter {
     }
 
     public void createUser() { // Обычный юзер
-        model.createUser(view.enterName());
+        view.enterName();
+        model.createUser(view.enterInConsole());
     }
 
     public void createPremiumUser() {
-        model.createPremiumUser(view.enterName());
+        view.enterName();
+        model.createPremiumUser(view.enterInConsole());
     }
 
     public void createAdmin() {
-        model.createAdmin(view.enterName());
+        view.enterName();
+        model.createAdmin(view.enterInConsole());
     }
 
     public void createGod() {
-        model.createGod(view.enterName());
+        view.enterName();
+        model.createGod(view.enterInConsole());
     }
 
     public void showAllUsers() {
@@ -37,26 +41,26 @@ public class Presenter {
         view.createGroup(); // вывод
         int idUser = getNumber();
         if (model.equalsId(idUser)) {
-            //.
-            System.out.println("here");
-            model.appendGroupInStorage(model.createGroup());
+            view.enterNameGroup();
+            model.appendGroupInStorage(model.createGroup(view.enterInConsole()));
         } else
             view.suchUserDoNotHave();
     }
 
+    /** Для ввода и проверки является ли введенное значение числом*/
     public int getNumber() {
         // Check number.
         String beNumber = "";
         int count = 0;
         do {
-            beNumber = view.enterNumber();
+            view.enterInConsole();
+            beNumber = view.enterInConsole();
             count++;
         } while (!model.isDigitString(beNumber));
 
         if (count > 1) {
             view.itIsNumber();
         }
-
         return model.getNumber(beNumber);
     }
 }

@@ -55,8 +55,8 @@ public class Model {
         return everythingUsers.checkId(id); // check then del???????
     }
 
-    public Group createGroup() { // Потом нужно будет добавить аргумент и передавать название группы!!
-        Group newGroup = new Group<>("Пармезановцы");
+    public Group createGroup(String namingGroup) { // Потом нужно будет добавить аргумент и передавать название группы!!
+        Group newGroup = new Group<>(namingGroup);
         return newGroup;
     }
 
