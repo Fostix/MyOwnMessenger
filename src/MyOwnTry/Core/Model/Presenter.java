@@ -47,6 +47,16 @@ public class Presenter {
             view.suchUserDoNotHave();
     }
 
+    public void appendUserInGroup() {
+        view.enterIdGroupWhichPersonWantEnter();
+        int idUser = getNumber();
+        System.out.println(model.checkHaveSuchUserOrNot(idUser));
+        view.enterIDPersonWhichJoinInGroup();
+        int idGroup = getNumber();
+        System.out.println(model.checkHaveSuchGroupOrNot(idGroup));
+
+    }
+
     /** Для ввода и проверки является ли введенное значение числом*/
     public int getNumber() {
         // Check number.

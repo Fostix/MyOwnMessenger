@@ -5,11 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3aeae636-e00b-4daf-b594-021ba80e6a91" name="Changes" comment="create model base iterator">
+      <change afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/ModelUsers/BaseUserOrGroup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/BaseList/ModelListIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/BaseList/ModelListIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/Group/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/ModelUsers/Group/Group.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/Model.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/Presenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/Presenter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/User/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/ModelUsers/User/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/User/BaseUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/ModelUsers/User/BaseUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/User/God.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/ModelUsers/User/God.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/User/ID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/ModelUsers/User/ID.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/User/PremiumUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/ModelUsers/User/PremiumUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/User/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/ModelUsers/User/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Storage/TempStorage/AllUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Storage/TempStorage/AllUsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Storage/TempStorage/BaseAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Storage/TempStorage/BaseAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Storage/TempStorage/Groups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Storage/TempStorage/Groups.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyOwnTry/UI/ConsoleView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/UI/ConsoleView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/UI/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/UI/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +155,11 @@
       <workItem from="1660286794515" duration="14976000" />
       <workItem from="1660363474072" duration="6131000" />
       <workItem from="1660893924805" duration="1239000" />
-      <workItem from="1660895430998" duration="1983000" />
+      <workItem from="1660895430998" duration="13212000" />
+      <workItem from="1660915657667" duration="657000" />
+      <workItem from="1660919782890" duration="2147000" />
+      <workItem from="1660972847756" duration="3475000" />
+      <workItem from="1661520389348" duration="4075000" />
     </task>
     <task id="LOCAL-00001" summary="first commit. maybe lie">
       <created>1659453007904</created>

@@ -1,4 +1,4 @@
-package MyOwnTry.Core.User;
+package MyOwnTry.Core.ModelUsers.User;
 
 public class User extends BaseUser{
     public User(String name) {

@@ -1,4 +1,4 @@
-package MyOwnTry.Core.User;
+package MyOwnTry.Core.ModelUsers.User;
 
 import java.util.Objects;
 import java.util.Random;

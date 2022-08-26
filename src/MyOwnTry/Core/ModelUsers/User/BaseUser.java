@@ -1,11 +1,11 @@
-package MyOwnTry.Core.User;
+package MyOwnTry.Core.ModelUsers.User;
 
-public abstract class BaseUser {
-    private ID id;
+import MyOwnTry.Core.ModelUsers.BaseUserOrGroup;
+
+public abstract class BaseUser extends BaseUserOrGroup {
     private String name;
 
     public BaseUser(String name) {
-        this.id = new ID();
         this.name = name;
     }
 
@@ -17,9 +17,6 @@ public abstract class BaseUser {
         this.name = name;
     }
 
-    public ID getId() {
-        return id;
-    }
 
 //    @Override
 //    public boolean equals(Object o) {
@@ -33,21 +30,9 @@ public abstract class BaseUser {
 //        if (!Objects.equals(id, baseUser.id)) return false;
 //        return Objects.equals(name, baseUser.name);
 //    }
-    @Override
-    public boolean equals(Object obj) {
-        BaseUser t = (BaseUser) obj;
-        return t.id == this.id;
-    }
-
-    @Override
-    public int hashCode() {
-        int result = id != null ? id.hashCode() : 0;
-        result = 31 * result + (name != null ? name.hashCode() : 0);
-        return result;
-    }
 
     @Override
     public String toString() {
-        return String.format("id: %s\nname: %s", this.id, this.name);
+        return String.format("id: %s\nname: %s", getId(), this.name);
     }
 }

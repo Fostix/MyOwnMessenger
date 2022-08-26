@@ -21,6 +21,8 @@ public class Menu {
             System.out.println();
             presenter.createGroup();
         }
+        presenter.showAllUsers(); // Сперва ID потом имя!!
+        presenter.appendUserInGroup();
         // # endregion
 
         while (true) {

@@ -1,10 +1,10 @@
 package MyOwnTry.Core.Model;
 
-import MyOwnTry.Core.Group.Group;
-import MyOwnTry.Core.User.Admin;
-import MyOwnTry.Core.User.BaseUser;
-import MyOwnTry.Core.User.God;
-import MyOwnTry.Core.User.PremiumUser;
+import MyOwnTry.Core.ModelUsers.Group.Group;
+import MyOwnTry.Core.ModelUsers.User.Admin;
+import MyOwnTry.Core.ModelUsers.User.BaseUser;
+import MyOwnTry.Core.ModelUsers.User.God;
+import MyOwnTry.Core.ModelUsers.User.PremiumUser;
 import MyOwnTry.Storage.TempStorage.AllUsers;
 import MyOwnTry.Storage.TempStorage.BaseAll;
 import MyOwnTry.Storage.TempStorage.Groups;
@@ -63,5 +63,17 @@ public class Model {
     public void appendGroupInStorage(Group newGroup) {
         everythingGroups.add(newGroup);
         System.out.println(everythingGroups);
+    }
+
+    public boolean checkHaveSuchUserOrNot(int idUser) {
+        return everythingUsers.checkId(idUser);
+    }
+
+    public boolean checkHaveSuchGroupOrNot(int idGroup) {
+        return everythingGroups.checkId(idGroup);
+    }
+
+    public void appendUserInGroup(int idUser, int idGroup) {
+
     }
 }
