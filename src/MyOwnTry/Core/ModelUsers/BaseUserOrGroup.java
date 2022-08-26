@@ -1,9 +1,6 @@
 package MyOwnTry.Core.ModelUsers;
 
-import MyOwnTry.Core.ModelUsers.User.BaseUser;
 import MyOwnTry.Core.ModelUsers.User.ID;
-
-import java.util.Objects;
 
 public abstract class BaseUserOrGroup {
     private ID id;
