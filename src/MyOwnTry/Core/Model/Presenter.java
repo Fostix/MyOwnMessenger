@@ -54,7 +54,9 @@ public class Presenter {
         view.enterIDPersonWhichJoinInGroup();
         int idGroup = getNumber();
         System.out.println(model.checkHaveSuchGroupOrNot(idGroup));
-
+        if (model.checkHaveSuchUserOrNot(idUser) && model.checkHaveSuchGroupOrNot(idGroup)) {
+            model.appendUserInGroup(idUser, idGroup);
+        }
     }
 
     /** Для ввода и проверки является ли введенное значение числом*/

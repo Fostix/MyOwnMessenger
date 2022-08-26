@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3aeae636-e00b-4daf-b594-021ba80e6a91" name="Changes" comment="create model base iterator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/ModelUsers/BaseUserOrGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/ModelUsers/BaseUserOrGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/Presenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/Presenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/UI/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/UI/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +144,7 @@
       <workItem from="1660915657667" duration="657000" />
       <workItem from="1660919782890" duration="2147000" />
       <workItem from="1660972847756" duration="3475000" />
-      <workItem from="1661520389348" duration="5843000" />
+      <workItem from="1661520389348" duration="8018000" />
     </task>
     <task id="LOCAL-00001" summary="first commit. maybe lie">
       <created>1659453007904</created>
@@ -219,6 +220,11 @@
           <url>file://$PROJECT_DIR$/src/SecondExample/Client/App.java</url>
           <line>6</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MyOwnTry/Core/Model/Model.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

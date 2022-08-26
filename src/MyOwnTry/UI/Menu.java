@@ -23,6 +23,8 @@ public class Menu {
         }
         presenter.showAllUsers(); // Сперва ID потом имя!!
         presenter.appendUserInGroup();
+        for (int i = 0; i < 10; i++) {
+        }
         // # endregion
 
         while (true) {
