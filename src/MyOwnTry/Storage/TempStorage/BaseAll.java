@@ -1,11 +1,14 @@
 package MyOwnTry.Storage.TempStorage;
 
 import MyOwnTry.Core.BaseList.ModelListIterator;
+import MyOwnTry.Core.ModelUsers.BaseUserOrGroup;
+import MyOwnTry.Core.ModelUsers.Group.Group;
+import MyOwnTry.Core.ModelUsers.User.BaseUser;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public abstract class BaseAll<A> extends ModelListIterator<A> {
+public abstract class BaseAll<A extends BaseUserOrGroup> extends ModelListIterator<A> {
     protected List<A> all;
     //int index;
 
@@ -25,5 +28,13 @@ public abstract class BaseAll<A> extends ModelListIterator<A> {
         return String.format("%s", this.all);
     }
 
-    public abstract boolean checkId(int id);
+    //public abstract boolean checkId(int id);
+    public boolean checkId(int forCheck) {
+        for (A user : all) {
+            if (user.getId().getId() == forCheck) {
+                return true;
+            }
+        }
+        return false;
+    }
 }

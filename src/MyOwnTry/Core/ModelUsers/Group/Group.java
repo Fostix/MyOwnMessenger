@@ -1,8 +1,8 @@
-package MyOwnTry.Core.Group;
+package MyOwnTry.Core.ModelUsers.Group;
 
 import MyOwnTry.Core.BaseList.ModelListIterator;
-import MyOwnTry.Core.User.BaseUser;
-import MyOwnTry.Core.User.God;
+import MyOwnTry.Core.ModelUsers.User.BaseUser;
+import MyOwnTry.Core.ModelUsers.User.God;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,10 +24,6 @@ public class Group<B extends BaseUser> extends ModelListIterator<B> {
         return null;
     }
 
-    public B getById(int id) {
-        return null;
-    }
-
     public int getCount() {
         return 0;
     }
@@ -39,6 +35,6 @@ public class Group<B extends BaseUser> extends ModelListIterator<B> {
 
     @Override
     public String toString() {
-        return String.format("%s, %s", this.chatName, this.users);
+        return String.format("%s, %s, %s", getId(), this.chatName, this.users);
     }
 }

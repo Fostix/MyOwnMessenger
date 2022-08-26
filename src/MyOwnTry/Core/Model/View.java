@@ -11,4 +11,6 @@ public interface View {
     void suchUserDoNotHave();
     void enterNameGroup();
     String enterInConsole();
+    void enterIDPersonWhichJoinInGroup();
+    void enterIdGroupWhichPersonWantEnter();
 }

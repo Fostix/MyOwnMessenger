@@ -69,10 +69,20 @@ public class ConsoleView implements View {
     public String enterInConsole() {
         String name = UUID.randomUUID().toString(); // Что бы различать имена от цифр!
         String numbers = String.valueOf(r.nextInt(10));
-        int num = r.nextInt(5);
+        int num = r.nextInt(50);
         if(num == 0) {
             return numbers;
         }
         return name; // для ускорения проверки!!
+    }
+
+    @Override
+    public void enterIDPersonWhichJoinInGroup() {
+        System.out.print("Введите id пользователя который хочет войти в группу: ");
+    }
+
+    @Override
+    public void enterIdGroupWhichPersonWantEnter() {
+        System.out.print("Введите id группы в который он хочет войти: ");
     }
 }

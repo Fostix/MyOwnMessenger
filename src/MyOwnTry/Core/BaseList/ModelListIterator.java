@@ -1,11 +1,13 @@
 package MyOwnTry.Core.BaseList;
 
+import MyOwnTry.Core.ModelUsers.BaseUserOrGroup;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public abstract class ModelListIterator<A> implements Iterable {//<A>
-    private List<A> list;
+public abstract class ModelListIterator<A> extends BaseUserOrGroup implements Iterable {//<A>
+    private List<A> list; // Этот лист вроде не нужен? Только для итератора
     private Count counter;
 
     public ModelListIterator() {
@@ -13,7 +15,6 @@ public abstract class ModelListIterator<A> implements Iterable {//<A>
     }
 
     public void add(A a) {
-
         this.list.add(a);
     }
 
