@@ -48,12 +48,20 @@ public class Presenter {
     }
 
     public void appendUserInGroup() {
-        view.enterIdGroupWhichPersonWantEnter();
-        int idUser = getNumber();
-        System.out.println(model.checkHaveSuchUserOrNot(idUser));
-        view.enterIDPersonWhichJoinInGroup();
-        int idGroup = getNumber();
-        System.out.println(model.checkHaveSuchGroupOrNot(idGroup));
+        int idUser;
+        int idGroup;
+        boolean u;
+        boolean g;
+        do {
+            view.enterIdGroupWhichPersonWantEnter();
+            idUser = getNumber();
+            u = model.checkHaveSuchUserOrNot(idUser);
+            view.enterIDPersonWhichJoinInGroup();
+            idGroup = getNumber();
+            g = model.checkHaveSuchGroupOrNot(idGroup);
+            System.out.println(u + "\n" + g);
+            } while (!u || !g);
+        model.appendUserInGroup(idUser, idGroup);
 
     }
 

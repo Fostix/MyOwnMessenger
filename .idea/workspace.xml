@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="3aeae636-e00b-4daf-b594-021ba80e6a91" name="Changes" comment="create model base iterator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/ModelUsers/BaseUserOrGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/ModelUsers/BaseUserOrGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/Presenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Core/Model/Presenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Storage/TempStorage/AllUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Storage/TempStorage/AllUsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Storage/TempStorage/BaseAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Storage/TempStorage/BaseAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyOwnTry/Storage/TempStorage/Groups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOwnTry/Storage/TempStorage/Groups.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +147,10 @@
       <workItem from="1660915657667" duration="657000" />
       <workItem from="1660919782890" duration="2147000" />
       <workItem from="1660972847756" duration="3475000" />
-      <workItem from="1661520389348" duration="5843000" />
+      <workItem from="1661520389348" duration="8018000" />
+      <workItem from="1661530631591" duration="51000" />
+      <workItem from="1661575131862" duration="6576000" />
+      <workItem from="1661661598464" duration="5402000" />
     </task>
     <task id="LOCAL-00001" summary="first commit. maybe lie">
       <created>1659453007904</created>
@@ -220,7 +227,22 @@
           <line>6</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MyOwnTry/Core/Model/Presenter.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MyOwnTry/UI/Menu.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MyOwnMessenger$Program.ic" NAME="Program Coverage Results" MODIFIED="1661665369089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>MyOwnTry.Client.*</FILTER>
+    </SUITE>
   </component>
 </project>
