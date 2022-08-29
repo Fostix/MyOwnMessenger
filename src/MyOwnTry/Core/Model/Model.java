@@ -75,9 +75,6 @@ public class Model {
 
     public void appendUserInGroup(int idUser, int idGroup) {
         // Here problem?
-        System.out.println(everythingUsers.getUsers(idUser).getClass());
-        BaseAll user = (BaseAll) everythingUsers.getUsers(idUser);
-        System.out.println(user);
-        //everythingGroups.getAll(0).add();
+        everythingGroups.get(idGroup).add(everythingUsers.get(idUser));
     }
 }

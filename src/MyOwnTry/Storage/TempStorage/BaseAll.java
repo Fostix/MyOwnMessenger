@@ -24,8 +24,8 @@ public abstract class BaseAll<A extends BaseUserOrGroup> extends ModelListIterat
         }
     }
 
-    public List<BaseUser> getUsers(int index) {
-        return (List<BaseUser>) all.get(index);
+    public A get(int index) {
+        return all.get(index);
     }
 
     @Override
