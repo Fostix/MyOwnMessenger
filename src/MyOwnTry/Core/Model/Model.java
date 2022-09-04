@@ -52,10 +52,10 @@ public class Model {
     }
 
     public boolean equalsId(int id) {
-        return everythingUsers.checkId(id); // check then del???????
+        return everythingUsers.checkId(id);
     }
 
-    public Group createGroup(String namingGroup) { // Потом нужно будет добавить аргумент и передавать название группы!!
+    public Group createGroup(String namingGroup) {
         Group newGroup = new Group<>(namingGroup);
         return newGroup;
     }
@@ -75,9 +75,11 @@ public class Model {
 
     public void appendUserInGroup(int idUser, int idGroup) {
         // Here problem?
-        System.out.println(everythingUsers.getUsers(idUser).getClass());
-        BaseAll user = (BaseAll) everythingUsers.getUsers(idUser);
-        System.out.println(user);
-        //everythingGroups.getAll(0).add();
+        System.out.println(idUser);
+        System.out.println(idGroup);
+        everythingGroups.get(idGroup).add(everythingUsers.get(idUser));
+    }
+
+    public void showGroup() {
     }
 }

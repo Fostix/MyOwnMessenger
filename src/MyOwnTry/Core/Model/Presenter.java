@@ -13,7 +13,7 @@ public class Presenter {
         view.createUserMenu();
     }
 
-    public void createUser() { // Обычный юзер
+    public void createUser() {
         view.enterName();
         model.createUser(view.enterInConsole());
     }
@@ -38,7 +38,7 @@ public class Presenter {
     }
 
     public void createGroup() {
-        view.createGroup(); // вывод
+        view.createGroup();
         int idUser = getNumber();
         if (model.equalsId(idUser)) {
             view.enterNameGroup();
@@ -62,12 +62,16 @@ public class Presenter {
             System.out.println(u + "\n" + g);
             } while (!u || !g);
         model.appendUserInGroup(idUser, idGroup);
+    }
 
+    public void showGroup() {
+        view.showGroup();
+        int n = getNumber();
+        System.out.println(n);
     }
 
     /** Для ввода и проверки является ли введенное значение числом*/
     public int getNumber() {
-        // Check number.
         String beNumber = "";
         int count = 0;
         do {

@@ -20,7 +20,7 @@ public class ID {
     }
 
     @Override
-    public boolean equals(Object o) { // Переполнение id
+    public boolean equals(Object o) {
         if (this.id.equals(o)) return true;
         if (o == null || getClass() != o.getClass()) return false;
         ID id1 = (ID) o;

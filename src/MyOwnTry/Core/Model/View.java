@@ -13,4 +13,5 @@ public interface View {
     String enterInConsole();
     void enterIDPersonWhichJoinInGroup();
     void enterIdGroupWhichPersonWantEnter();
+    void showGroup();
 }

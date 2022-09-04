@@ -16,15 +16,15 @@ public class Menu {
         for (int i = 0; i < 10; i++) {
             presenter.createUser();
         }
-        presenter.showAllUsers(); // Сперва ID потом имя!!
+        presenter.showAllUsers();
         for (int i = 0; i < 3; i++) {
             System.out.println();
             presenter.createGroup();
         }
-        presenter.showAllUsers(); // Сперва ID потом имя!!
-        presenter.appendUserInGroup();
         for (int i = 0; i < 10; i++) {
+            presenter.appendUserInGroup();
         }
+        presenter.showGroup();
         // # endregion
 
         while (true) {
@@ -55,7 +55,7 @@ public class Menu {
                     case "agroup":
                         presenter.createGroup();
                         break;
-                    case "groupu": // Отправить юзера в группу.
+                    case "groupu": // Добавить юзера в группу.
                         // presenter.sendUserInGroup();
                         break;
                     default:
