@@ -81,8 +81,13 @@ public class ConsoleView implements View {
         System.out.print("Введите id пользователя который хочет войти в группу: ");
     }
 
-    @Override
+    @Override // зава
     public void enterIdGroupWhichPersonWantEnter() {
         System.out.print("Введите id группы в который он хочет войти: ");
+    }
+
+    @Override
+    public void showGroup() {
+        System.out.println("Введите id группы для просмотра содержимого: ");
     }
 }

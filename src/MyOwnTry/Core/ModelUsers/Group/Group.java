@@ -16,7 +16,7 @@ public class Group<B extends BaseUser> extends ModelListIterator<B> {
         this.users = new ArrayList<>();
     }
 
-    public void add(B b) { // Why i can't parameterize base hero?
+    public void add(B b) {
         users.add(b);
     }
 
